@@ -1,12 +1,20 @@
 #!/usr/bin/env bash 
 
 
-#      ▇▇▇                                       ▇▇▇               ▄▇▇▇▇▇▄                 ▇▇                                    ▇▇                
-#      ▇▇        ▇                        ▇       ▇▇             ▄▇                ▇▄                        ▇▇                  ▇▇
-#      ▇▇          ▇ @UU_iv   ▇         ▇▇            ▄▇▄▄▄▄▄▇▄                               ▇▇ ▇▇
-#      ▇▇             ▇             ▇             ▇▇        ▄▇                            ▇▄                          ▇▇ ▇▇ ¦ Dev : @UU_iv
-#      ▇▇                ▇       ▇                ▇▇      ▄▇ ¦ Dev : @UU_iv  ▇▄                 ▇▇                 ▇▇
-#      ▇▇                   ▇▇                    ▇▇     ▄▇                                    ▇▄      ▇▇                                  ▇▇¦ Source HACK BY @UU_iv
+─▄█▀█▄──▄███▄─
+▐█░██████████▌
+─██▒█████████─
+──▀████████▀──┊@UU_IV
+
+ ██  ██.                     ██
+██.       ██.         ██.      ██
+██.         ██.     ██.██ ██ ██
+██.       ██.     ██.                ██
+██  ██.         ██.                     ██         │SONIC ﹏ @UU_IV
+│تم تطوير وبرمجة السورس من قبل سونيكᐂ .
+─────▀██▀─────
+┊SONIC ‿ @UU_IV
+┊@UU_IV ‿ @UU_IV
 #---------------------------------------------------------------------
 cd $(cd $(dirname $0); pwd)
  
@@ -22,16 +30,16 @@ Version=`lsb_release -rs | cut -f1 -d"."`
 
 if [ "$Version" == "18" ];then
 echo -e "${GREEN}
-▇▇▇                                       ▇▇▇               ▄▇▇▇▇▇▄                 ▇▇                                    ▇▇                
-▇▇        ▇                        ▇       ▇▇             ▄▇                ▇▄                        ▇▇                  ▇▇
-▇▇          ▇ @UU_iv   ▇         ▇▇            ▄▇▄▄▄▄▄▇▄                               ▇▇ ▇▇
-▇▇             ▇             ▇             ▇▇        ▄▇                            ▇▄                          ▇▇ ▇▇ ¦ Dev : @UU_iv
-▇▇                ▇       ▇                ▇▇      ▄▇ ¦ Dev : @UU_iv  ▇▄                 ▇▇                 ▇▇
-▇▇                   ▇▇                    ▇▇     ▄▇                                    ▇▄      ▇▇                                  ▇▇¦ Source HACK BY @UU_iv
+
+                    
+       ▇ @UU_IV   ▇                     ▄▇▄▄▄▄▄▇▄                            
+    ▄▇                                           ¦ Dev : @UU_IV
+ ▄▇ ¦ Dev : @UU_IV                    
+                                                               ¦ Source SONIC BY @UU_IV
 ----------------------------------------------------------------------${CNIL}"
 echo -e "${RED}| للاسف لايمكنك تنصيب السورس ع نظام اوبنتو {${Version}} يجب ان يكون على اصدار  اقل مثلا  ${SMAY}14 او 16
 ${CNIL}";
-echo -e "${RED}| Sorry Canot install Source on Ubuntu {${Version}} Please install system To Ubuntu ${SMAY}14 or 16 ${RED} For Run The Source HACK 
+echo -e "${RED}| Sorry Canot install Source on Ubuntu {${Version}} Please install system To Ubuntu ${SMAY}14 or 16 ${RED} For Run The Source SONIC 
 ${CNIL}";
 exit;
 fi
@@ -41,7 +49,7 @@ if [ ! -f "./TG" ]; then
 echo -e "${RED}
 ¦
 ¦ CAUTION:${WHITB} Your Not Dwonload TG .
-¦ NOW I Run File ${Yellow}./run${WHITB} To install ${SMAY}Source HACK${CNIL} . \n
+¦ NOW I Run File ${Yellow}./run${WHITB} To install ${SMAY}Source SONIC${CNIL} . \n
 \n\n"
 chmod +x ./ins
 ./ins
@@ -70,10 +78,10 @@ sudo rm -fr ../.telegram-cli
 done
 else
 
-if ! screen -list | grep -q "HACK"; then
-screen -S HACK ./run R
+if ! screen -list | grep -q "SONIC"; then
+screen -S SONIC ./run R
 fi
-screen -S HACK -X kill
-screen -S HACK ./run R
+screen -S SONIC -X kill
+screen -S SONIC ./run R
 fi
 
