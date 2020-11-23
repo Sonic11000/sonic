@@ -3214,10 +3214,4 @@ end
 
 if msg.content_.ID == "MessageChatChangeTitle" then
 GetUserID(msg.sender_user_id_,function(arg,data)
-redis:set(Sonic..'group:name'..msg.chat_id_,msg.content_.title_)
-if data.username_ then UserName = "@"..data.username_ else UserName = "احد المشرفين" end
-
-return sendMsg(msg.chat_id_,msg.id_,"⋆  ⇽ قام  ["..UserName.."]\n بتغير اسم المجموعه  \n الى "..Flter_Markdown(msg.content_.title_).." \n✓") 
-end)
-end
-if 
+redis:set(Sonic..'group:name'..
