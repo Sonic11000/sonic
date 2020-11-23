@@ -2419,17 +2419,20 @@ end
 
 if MsgText[1] == "سورس" or MsgText[1]=="السورس" then
 return [[
-𓃋  [☆𝙳𝙴𝚅☆](t.me/Alamy3)
-
-𓃋 [☆𝙳𝙴𝚅☆](t.me/t.me/M_A_L_L_A_M)
-
-𓃋 [☆𝙲𝙷☆](t.me/SouRce_Sonic)
-
-𓃋 [☆𝚃𝚆𝙰𝚂𝙾𝙻☆](t.me/FlassTas4_bot)
+    
+✧ SouRce_Sonic ✧
+ ⋆ ⋆ ⋆ ⋆ ⋆ ⋆ ⋆ ⋆ 
+• 𝒅𝒆𝒗 >> [˹ 𝙰𝙻𝙰𝙼𝚈𖤝.](t.me/Alamy3)
+⋆ ⋆ ⋆ ⋆ ⋆ ⋆ ⋆ ⋆ 
+• 𝒅𝒆𝒗 >> [˹ 𝙰𝙻𝙻𝙰𝙼.](t.me/M_A_L_L_A_M)
+⋆ ⋆ ⋆ ⋆ ⋆ ⋆ ⋆ ⋆ 
+• • >> [˹ SouRce_Sonic𖤝.](t.me/SouRce_Sonic)
+⋆ ⋆ ⋆ ⋆ ⋆ ⋆ ⋆ ⋆ 
+• •>> [˹ 𝒕𝒐 𝒕𝒂𝒍𝒌 𝒖𝒔𖤝.](t.me/FlassTas4_bot)
+⋆ ⋆ ⋆ ⋆ ⋆ ⋆ ⋆ ⋆
 ⠀⠀
 ]]
 end
-
 
 if MsgText[1] == "التاريخ" then
 return "\n تاريخ اليوم  : "..os.date("%Y/%m/%d")
@@ -3920,9 +3923,9 @@ local su = {
   }
   local song = {
   
-  "-[عَـالم‌المُـوسيقى‌بصِيـغةMp3.⋆](https://t.me/joinchat/AAAAAFIts9vCILz6P1LqJA)",
-  "[-قـروب‌مِكس‌بنـات‌للسـوالف .🖤.](https://t.me/joinchat/AAAAAFIts9vCILz6P1LqJA)",
-  "[-جُزءيكابروجُزءينزف*.](https://t.me/joinchat/AAAAAFIts9vCILz6P1LqJA)",
+  "-[عَـالم‌المُـوسيقى‌بصِيـغةMp3.⋆](https://t.me/FlassTas11)",
+  "[-قـروب‌مِكس‌بنـات‌للسـوالف .🖤.](https://t.me/FlassTas11)",
+  "[-جُزءيكابروجُزءينزف*.](https://t.me/FlassTas11)",
   
   }
   
@@ -3995,7 +3998,7 @@ local su = {
   else 
   return sendMsg(msg.chat_id_,msg.id_,"ممـور يحلوي.") 
   end
-  elseif Text== "العالمي" or Text== "عالمي" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور جميع السورسات](https://t.me/Alamy3)")
+  elseif Text== "العالمي" or Text== "عالمي" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس الهكر وسونيك ↯](https://t.me/Alamy3)")
   elseif Text== "سونيك" or Text== "سونيك" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس داني ↯](https://t.me/UU_IV)")
   elseif Text== "علام" or Text== "علام سونيك" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس سونيك ⚛](https://t.me/M_A_L_L_A_M)")
   elseif Text== "هايدي" or Text== "قلب العالمي" then return  sendMsg(msg.chat_id_,msg.id_,"[حبيبت العالمي ووبس ⚛](https://t.me/H_yah1)")
