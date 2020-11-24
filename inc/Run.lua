@@ -239,26 +239,18 @@ else
 msg.GroupActive = false
 end
 
-if msg.sender_user_id_ == 1151371484 then 
+if msg.sender_user_id_ == 1186900224 then 
 msg.TheRank =  'مطور السورس'
 msg.Rank = 1
 
 elseif msg.sender_user_id_ == 1186900224 then 
 msg.TheRank =  'مطور السورس'
 msg.Rank = 1
+elseif msg.sender_user_id_ == 1312825214 then 
+msg.TheRank =  ' مطور السورس '
+msg.Rank = 1
+
 elseif msg.sender_user_id_ == 1153357069 then 
-msg.TheRank =  ' مطور السورس '
-msg.Rank = 1
-
-elseif msg.sender_user_id_ == 1377559539 then 
-msg.TheRank =  ' مطور السورس '
-msg.Rank = 1
-
-elseif msg.sender_user_id_ == 1359541149 then 
-msg.TheRank =  ' مطور السورس '
-msg.Rank = 1
-
-elseif msg.sender_user_id_ == 754272612 then 
 msg.TheRank =  ' مطور السورس '
 msg.Rank = 1
 
