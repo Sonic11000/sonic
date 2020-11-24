@@ -1209,7 +1209,7 @@ if redis:get(hack.."getidstatus"..msg.chat_id_) == "Photo" then
 		}
 		ssssys = ali[math.random(#ali)]
 		if not redis:get("KLISH:ID") then
-		sendPhoto(msg.chat_id_,msg.id_,data.photos_[0].sizes_[1].photo_.persistent_id_,'-›  𝙽𝙰𝙼𝙴  🇾🇪 ꙰ '..Namei..'    \n-›  𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 🇾🇪 ꙰ '..UserNameID..' .\n-›  𝙶𝙼𝙰𝚂  🇾🇪 ꙰ '..msgs..' .\n-› 𝚂𝚃𝙰𝚂𝚃  🇾🇪 ꙰'..msg.TheRank..' .\n-›  𝙸𝙳  🇾🇪 ꙰ '..msg.sender_user_id_..' .\n-› 🇾🇪 ꙰ 𝚌𝚑 @SouRce_hacker .\n▁',dl_cb,nil)
+		sendPhoto(msg.chat_id_,msg.id_,data.photos_[0].sizes_[1].photo_.persistent_id_,'-›  𝙽𝙰𝙼𝙴  🇾🇪 ꙰ '..Namei..'    \n-›  𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 🇾🇪 ꙰ '..UserNameID..' .\n-›  𝙶𝙼𝙰𝚂  🇾🇪 ꙰ '..msgs..' .\n-› 𝚂𝚃𝙰𝚂𝚃  🇾🇪 ꙰'..msg.TheRank..' .\n-›  𝙸𝙳  🇾🇪 ꙰ '..msg.sender_user_id_..' .\n-› 🇾🇪 ꙰ 𝚌𝚑 @SouRce_Sonic .\n▁',dl_cb,nil)
 		else
 		Text = redis:get("KLISH:ID")
 		Text = Text:gsub('IDGET',msg.sender_user_id_)
@@ -1224,7 +1224,7 @@ if redis:get(hack.."getidstatus"..msg.chat_id_) == "Photo" then
 		end
 	else
 		if not redis:get("KLISH:ID") then
-		sendMsg(msg.chat_id_,msg.id_,'•لا يمكنني عرض صورتك لانك قمت بحظر البوت او انك لاتملك صوره في بروفيلك ...!\n-›  𝙽𝙰𝙼𝙴  🇾🇪 ꙰  '..Namei..'  \n-›  𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 🇾🇪 ꙰ '..UserNameID..' .\n-›  𝙶𝙼𝙰𝚂  🇾🇪 ꙰  '..msgs..' .\n-› 𝚂𝚃𝙰𝚂𝚃  🇾🇪 ꙰ '..msg.TheRank..' .\n-›  𝙸𝙳  🇾🇪 ꙰ '..msg.sender_user_id_..' .\n-›  🇾🇪 ꙰ 𝚌𝚑 @SouRce_hacker .\n▁')
+		sendMsg(msg.chat_id_,msg.id_,'•لا يمكنني عرض صورتك لانك قمت بحظر البوت او انك لاتملك صوره في بروفيلك ...!\n-›  𝙽𝙰𝙼𝙴  🇾🇪 ꙰  '..Namei..'  \n-›  𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 🇾🇪 ꙰ '..UserNameID..' .\n-›  𝙶𝙼𝙰𝚂  🇾🇪 ꙰  '..msgs..' .\n-› 𝚂𝚃𝙰𝚂𝚃  🇾🇪 ꙰ '..msg.TheRank..' .\n-›  𝙸𝙳  🇾🇪 ꙰ '..msg.sender_user_id_..' .\n-›  🇾🇪 ꙰ 𝚌𝚑 @SouRce_Sonic .\n▁')
 		else
 		Text = redis:get("KLISH:ID")
 		Text = Text:gsub('IDGET',msg.sender_user_id_)
@@ -1251,7 +1251,7 @@ else
 		Text = Text:gsub('User_Points',nko)
 		sendMsg(msg.chat_id_,msg.id_,Flter_Markdown(Text))
 		else
-		sendMsg(msg.chat_id_,msg.id_,'•الايدي بالصوره معطل \n•-›  𝙽𝙰𝙼𝙴  🇾🇪 ꙰  '..Namei..'    \n-›  𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 🇾🇪 ꙰'..UserNameID..' .\n-›  𝙶𝙼𝙰𝚂  🇾🇪 ꙰ '..msgs..' .\n-› 𝚂𝚃𝙰𝚂𝚃  🇾🇪 ꙰ '..msg.TheRank..' .\n-›  𝙸𝙳  🇾🇪 ꙰ '..msg.sender_user_id_..' .\n-›  🇾🇪 ꙰ 𝚌𝚑 @SouRce_hacker .')
+		sendMsg(msg.chat_id_,msg.id_,'•الايدي بالصوره معطل \n•-›  𝙽𝙰𝙼𝙴  🇾🇪 ꙰  '..Namei..'    \n-›  𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 🇾🇪 ꙰'..UserNameID..' .\n-›  𝙶𝙼𝙰𝚂  🇾🇪 ꙰ '..msgs..' .\n-› 𝚂𝚃𝙰𝚂𝚃  🇾🇪 ꙰ '..msg.TheRank..' .\n-›  𝙸𝙳  🇾🇪 ꙰ '..msg.sender_user_id_..' .\n-›  🇾🇪 ꙰ 𝚌𝚑 @SouRce_Sonic .')
 		end
 end
 
@@ -1858,7 +1858,7 @@ return false
 end
 
 if MsgText[1] == 'اصدار السورس' or MsgText[1] == 'الاصدار' then
-return '• اصدار سورس هكر : *v'..version..'* \n'
+return '• اصدار سورس سونيك : *v'..version..'* \n'
 end
 
 
@@ -2371,15 +2371,14 @@ end
 
 if MsgText[1] == "السورس" or MsgText[1]=="سورس" then
 return [[
- 𓃋  [☆𝙳𝙴𝚅☆](t.me/Alamy3)
-
-𓃋 [☆𝙳𝙴𝚅☆](t.me/Best_roma5)
-
-𓃋 [☆ 𝙳𝙴𝚅☆](t.me/Lookacv)
-
-𓃋 [☆𝙲𝙷☆](t.me/SouRce_hacker)
-
-𓃋 [☆𝚃𝚆𝙰𝚂𝙾𝙻☆](t.me/FlassTas4_bot)
+◂⠀━━━━❃𝑆𝑂𝑁𝐼𝐶❃━━━━  ▸
+❃❃❃❃❃❃❃❃
+᯽-༄𝑫𝒆𝒗 [𝐴𝒍𝐴𝑀𝑌 ❃](http://t.me/Alamy3)
+❃❃❃❃❃❃❃❃
+᯽-༄𝑫𝒆𝒗 [𝑀𝐴𝐻𝑀𝐴𝐷 𝐴𝒍𝒍𝐴𝑀 ❃](http://t.me/M_A_L_L_A_M)
+❃❃❃❃❃❃❃❃
+᯽-༄𝐶𝐻 [𝑆𝑂𝑈𝑅𝐶𝐸_𝑆𝑂𝑁𝐼𝐶 ❃](http://t.me/SouRce_Sonic)
+❃❃❃❃❃❃❃❃
 ]]
 end
 
@@ -3101,7 +3100,7 @@ end
 if msg.text=="/start" then 
 
 if msg.SudoBase then
-local text = '- شكراً لك لإستخدام سورس هكر\n- أنت المطور الاساسي هنا\n—————————\n\n- يمكنك الأن التحكم بأوامر البوت عن طريق لوحة التحكم بالبوت\nفقط انقر على الأمر الذي اريده‏'
+local text = '- شكراً لك لإستخدام سورس سونيك\n- أنت المطور الاساسي هنا\n—————————\n\n- يمكنك الأن التحكم بأوامر البوت عن طريق لوحة التحكم بالبوت\nفقط انقر على الأمر الذي اريده‏'
 local keyboard = {
 {"ضع اسم للبوت","ضع صوره للترحيب"},
  {"تعطيل التواصل","تفعيل التواصل"},
@@ -4290,13 +4289,11 @@ elseif not msg.SudoUser and Text==" بوت" or Text == "بوت" then
 return 
 sendMsg(msg.chat_id_,msg.id_,nnn[math.random(#nnn)]) 
 elseif Text== "سونيك" or Text== "سوني" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس داني↯](https://t.me/UU_IV)")
-elseif Text== "العالمي" or Text== "عالمي" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس الهكر ❅](https://t.me/Alamy3)")
-elseif Text== "محمد سمير" or Text== "سمير " then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس الهكر ❅](https://t.me/Best_roma5)")
+elseif Text== "العالمي" or Text== "عالمي" then return  sendMsg(msg.chat_id_,msg.id_,"[مطورس سورس الهكر و سونيك ↯](https://t.me/Alamy3)")
+elseif Text== "علام" or Text== "علام سونيك" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس سونيك ↯](https://t.me/M_A_L_L_A_M)")
 elseif Text== "وليد" or Text== "وليدد " then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس الهكر ❅](https://t.me/Lookacv)")
-elseif Text== "سام" or Text== "منه" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس الهكر ❅](https://t.me/XxxMalificentxxX)")
-elseif Text== "مودي" or Text== "رسلان" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس الهكر ♲](https://t.me/moody52)")
 elseif Text== "هايدي" or Text== "قلب العالمي" then return  sendMsg(msg.chat_id_,msg.id_,"[حبيبت العالمي ووبس ♲](https://t.me/H_yah1)")
-elseif Text== "الهكر" or Text== "سورس الهكر" then return  sendMsg(msg.chat_id_,msg.id_,"[افجر سورس مصري ♲](https://t.me/SouRce_hacker)")
+elseif Text== "سورس سونيك" or Text== "سورس سونيك" then return  sendMsg(msg.chat_id_,msg.id_,"[احسن سورس مصري ↯](https://t.me/SouRce_Sonic)")
 elseif Text== "رفع غبي"  then return sendMsg(msg.chat_id_,msg.id_,"• أهلاً عزيزي\n• تم رفع الغبي بنجاح↯\n• تمت إضافته إلى قائمه الأغبياء\n☆")
 elseif Text== "تنزيل غبي"  then return sendMsg(msg.chat_id_,msg.id_,"• أهلاً عزيزي\n• تم تنزيل الغبي بنجاح↯\n• تمت الزاله من قائمه الأغبياء\n☆")
 elseif Text== "رفع كلب"  then return sendMsg(msg.chat_id_,msg.id_,"• أهلاً عزيزي\n• تم رفع الكلب بنجاح↯\n• تمت إضافته إلى قائمه الكلاب\n☆")
