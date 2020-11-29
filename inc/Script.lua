@@ -2909,11 +2909,11 @@ return false
 
 end
 
-if text == "تعطيل الابراج" and Owner(msg) then
+if MsgText[1] == "تعطيل الابراج" and Owner(msg) then
 send(msg.chat_id_, msg.id_, '⌯ تم تعطيل الابراج')
 database:set(bot_id.."BLACKBOTSS:brj_Bots"..msg.chat_id_,"close")
 end
-if text == "تفعيل الابراج" and Owner(msg) then
+if MsgText[1] == "تفعيل الابراج" and Owner(msg) then
 send(msg.chat_id_, msg.id_,'⌯ تم تفعيل الابراج')
 database:set(bot_id.."BLACKBOTSS:brj_Bots"..msg.chat_id_,"open")
 end
@@ -2923,11 +2923,11 @@ gk = https.request('https://forhassan.ml/Black/br.php?br='..URL.escape(Textbrj).
 br = JSON.decode(gk)
 send(msg.chat_id_, msg.id_, br.ok.hso)
 end
-if text == "تعطيل حساب العمر" and Owner(msg) then
+if MsgText[1] == "تعطيل حساب العمر" and Owner(msg) then
 send(msg.chat_id_, msg.id_, '⌯ تم تعطيل حساب العمر')
 database:set(bot_id.."BLACKBOTSS:age_Bots"..msg.chat_id_,"close")
 end
-if text == "تفعيل حساب العمر" and Owner(msg) then
+if MsgText[1] == "تفعيل حساب العمر" and Owner(msg) then
 send(msg.chat_id_, msg.id_,'⌯ تم تفعيل حساب العمر')
 database:set(bot_id.."BLACKBOTSS:age_Bots"..msg.chat_id_,"open")
 end
