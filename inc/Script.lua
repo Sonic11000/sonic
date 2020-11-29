@@ -3088,48 +3088,8 @@ else
 sendMsg(msg.chat_id_,msg.id_,'تم تفعيل الترحيب')
 redis:set(hack..'welc'..msg.chat_id_,'on')
 end
-end
-if Text == 'welcome off' or Text == 'تعطيل الترحيب' then
-if redis:get(hack..'welc'..msg.chat_id_) == 'off' then
-sendMsg(msg.chat_id_,msg.id_,'تم تعطيل الترحيب سابقا')
-redis:set(hack..'welc'..msg.chat_id_,'off')
-redis:del(hack..'welc'..msg.chat_id_,'on')
-else
-sendMsg(msg.chat_id_,msg.id_,'تم تعطيل الترحيب')
-end
-end
+			
 
-if Black == 'welcome on' or Black == 'تفعيل الهكر' then
-if redis:get(hack..'welc'..msg.chat_id_) == 'on' then
-sendMsg(msg.chat_id_,msg.id_,'تم تفعيل الهكر سابقا')
-else
-sendMsg(msg.chat_id_,msg.id_,'تم تفعيل الهكر')
-redis:set(hack..'welc'..msg.chat_id_,'on')
-end
-end
-if Text == 'welcome off' or Text == 'تعطيل الهكر' then
-if redis:get(hack..'welc'..msg.chat_id_) == 'off' then
-sendMsg(msg.chat_id_,msg.id_,'تم تعطيل الهكر سابقا')
-redis:set(hack..'welc'..msg.chat_id_,'off')
-redis:del(hack..'welc'..msg.chat_id_,'on')
-else
-sendMsg(msg.chat_id_,msg.id_,'تم الهكر الترحيب')
-end
-end
-
-
-if Text == "join on" and msg.SudoUser then
-redis:set(hack..'joinchnl',true)
-sendMsg(msg.chat_id_,msg.id_,'on')
-end
-if Text and redis:get(hack..'setchs') and msg.SudoUser then
-redis:set(hack..'setch',Text)
-sendMsg(msg.chat_id_,msg.id_,'تم تعين القناه علي \n'..Text)
-redis:del(hack..'setchs')
-end
-if Text and (Text:match("^setch$")) and msg.SudoUser then
-sendMsg(msg.chat_id_,msg.id_,'ارسل معرفك بدون @')
-redis:setex(hack..'setchs',120,true)
 end
 
 
@@ -5016,11 +4976,6 @@ if not redis:get('kar') then
   "^(ابيوسف)$",
   "^(بابلو)$",	
   "^(مهرجانات)$",
- "^(احسب)$",
-"^(تفعيل حساب العمر)$",
-"^(تفعيل الابراج)$",
-"^(تعطيل حساب العمر)$",
-"^(تعطيل الابراج)$",
 	
   
   
