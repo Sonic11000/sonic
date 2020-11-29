@@ -2909,33 +2909,29 @@ return false
 
 end
 
-if MsgText[1] == "تعطيل الابراج" and Owner(msg) then
-send(msg.chat_id_, msg.id_, '⌯ تم تعطيل الابراج')
-database:set(bot_id.."BLACKBOTSS:brj_Bots"..msg.chat_id_,"close")
+if Black == 'تفعيل الابراج' or Black == '⌯ تم تفعيل الابراج' then
+if redis:get(hack..'welc'..msg.chat_id_) == 'on' then
+sendMsg(msg.chat_id_,msg.id_,'تم تفعيل الابراج سابقا')
+else
+sendMsg(msg.chat_id_,msg.id_,'تم تفعيل الترحيب')
+redis:set(hack..'welc'..msg.chat_id_,'on')
 end
-if MsgText[1] == "تفعيل الابراج" and Owner(msg) then
-send(msg.chat_id_, msg.id_,'⌯ تم تفعيل الابراج')
-database:set(bot_id.."BLACKBOTSS:brj_Bots"..msg.chat_id_,"open")
 end
-if MsgText[1] and text:match("^برج (.*)$") and database:get(bot_id.."BLACKBOTSS:brj_Bots"..msg.chat_id_) == "open" then
+if Text == 'تعطيل الابراج' or Text == '⌯ تم تعطيل الابراج' then
+if redis:get(hack..'welc'..msg.chat_id_) == 'off' then
+sendMsg(msg.chat_id_,msg.id_,'تم تعطيل الابراج سابقا')
+redis:set(hack..'welc'..msg.chat_id_,'off')
+redis:del(hack..'welc'..msg.chat_id_,'on')
+else
+sendMsg(msg.chat_id_,msg.id_,'تم تعطيل الابراج')
+end
+end
+
+if Black and text:match("^برج (.*)$") and database:get(bot_id.."BLACKBOTSS:brj_Bots"..msg.chat_id_) == "open" then
 local Textbrj = text:match("^برج (.*)$")
-gk = https.request('https://forhassan.ml/Black/br.php?br='..URL.escape(Textbrj)..'')
+gk = https.request('https://forhassan.ml/hack/br.php?br='..URL.escape(Textbrj)..'')
 br = JSON.decode(gk)
 send(msg.chat_id_, msg.id_, br.ok.hso)
-end
-if MsgText[1] == "تعطيل حساب العمر" and Owner(msg) then
-send(msg.chat_id_, msg.id_, '⌯ تم تعطيل حساب العمر')
-database:set(bot_id.."BLACKBOTSS:age_Bots"..msg.chat_id_,"close")
-end
-if MsgText[1] == "تفعيل حساب العمر" and Owner(msg) then
-send(msg.chat_id_, msg.id_,'⌯ تم تفعيل حساب العمر')
-database:set(bot_id.."BLACKBOTSS:age_Bots"..msg.chat_id_,"open")
-end
-if MsgText[1] and text:match("^احسب (.*)$") and database:get(bot_id.."BLACKBOTSS:age_Bots"..msg.chat_id_) == "open" then
-local Textage = text:match("^احسب (.*)$")
-ge = https.request('https://forhassan.ml/Black/age.php?age='..URL.escape(Textage)..'')
-ag = JSON.decode(ge)
-send(msg.chat_id_, msg.id_, ag.ok.hso)
 end
 
 
