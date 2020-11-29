@@ -1858,7 +1858,7 @@ return false
 end
 
 if MsgText[1] == 'اصدار السورس' or MsgText[1] == 'الاصدار' then
-return '♲ اصدار سورس هكر : *v'..version..'* \n'
+return '♲ اصدار سورس سونيك : *v'..version..'* \n'
 end
 
 
@@ -1916,8 +1916,8 @@ end
 if (MsgText[1]== "ايدي" or MsgText[1]=="ايديي🆔") and msg.type == "pv" then return  "\n♲ اهلاً عزيزي المطور ايديك :\n\n♲ "..msg.sender_user_id_.."\n"  end
 
 if MsgText[1]== "قناة السورس" and msg.type == "pv" then
-local inline = {{{text="-قنآهہ‏‏ آلسـورس اضـغـط هـنـآ ",url="https://t.me/SouRce_hacker"}}}
-send_key(msg.sender_user_id_,'   [قناة سورس : هكر](https://t.me/SouRce_hacker)' ,nil,inline,msg.id_)
+local inline = {{{text="-قنآهہ‏‏ آلسـورس اضـغـط هـنـآ ",url="https://t.me/SouRce_Sonic"}}}
+send_key(msg.sender_user_id_,'   [قناة سورس : سونيك](https://t.me/SouRce_Sonic)' ,nil,inline,msg.id_)
 return false
 end
 
@@ -1929,7 +1929,7 @@ end
 
 if MsgText[1]== "مطور السورس" and msg.type == "pv" then
 local inline = {{{text="مطور السورس اضـغـط هـنـآ ",url="https://t.me/Omnia_mysoulmate"}}}
-send_key(msg.sender_user_id_,'   [مطور محمد](https://t.me/Omnia_mysoulmate)' ,nil,inline,msg.id_)
+send_key(msg.sender_user_id_,'   [علام.مطور](https://t.me/Omnia_mysoulmate)' ,nil,inline,msg.id_)
 return false
 end
 
@@ -2411,15 +2411,15 @@ end
 
 if MsgText[1] == "السورس" or MsgText[1]=="سورس" then
 return [[
- 𓃋  [☆𝙳𝙴𝚅☆](t.me/Alamy3)
+❃ 𝗦𝗼𝘂𝗿𝗰𝗲 𝘀𝗼𝗻𝗹𝗰 ❃
 
-𓃋 [☆𝙳𝙴𝚅☆](t.me/Omnia_mysoulmate)
+𖤍 𝒅𝒆𝒗 [𝒂𝒍𝒂𝒎𝒚 𖤍](http://t.me/Alamy3)
 
-𓃋 [☆ 𝙳𝙴𝚅☆](t.me/Lookacv)
+𖤍 𝒅𝒆𝒗 [𝒎𝒐𝒉𝒂𝒎𝒆𝒅 𝒂𝒍𝒍𝒂𝒎 𖤍](http://t.me/M_A_L_L_A_M)
 
-𓃋 [☆𝙲𝙷☆](t.me/SouRce_hacker)
+𖤍 𝒄𝒉 [𝒔𝒐𝒖𝒓𝒄𝒆 𝒔𝒐𝒏𝒊𝒄 𖤍](http://t.me/SouRce_Sonic)
 
-𓃋 [☆𝚃𝚆𝙰𝚂𝙾𝙻☆](t.me/FlassTas4_bot)
+𖤍 𝒄𝒉 [𝒕𝒘𝒂𝒔𝒐𝒍 𖤍] ث(http://t.me/FlassTas4_bot)
 ]]
 end
 
@@ -4354,13 +4354,10 @@ elseif not msg.SudoUser and Text==" بوت" or Text == "بوت" then
 return 
 sendMsg(msg.chat_id_,msg.id_,nnn[math.random(#nnn)]) 
 elseif Text== "سونيك" or Text== "سوني" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس داني↯](https://t.me/UU_IV)")
-elseif Text== "العالمي" or Text== "عالمي" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس الهكر ❅](https://t.me/Alamy3)")
-elseif Text== "محمد سمير" or Text== "سمير " then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس الهكر ❅](https://t.me/Best_roma5)")
-elseif Text== "وليد" or Text== "وليدد " then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس الهكر ❅](https://t.me/Lookacv)")
-elseif Text== "سام" or Text== "منه" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس الهكر ❅](https://t.me/XxxMalificentxxX)")
-elseif Text== "مودي" or Text== "رسلان" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس الهكر ♲](https://t.me/moody52)")
+elseif Text== "العالمي" or Text== "عالمي" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس الهكر وسونيك ↯](https://t.me/Alamy3)")
+elseif Text== "علام" or Text== "علام سونيك" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس سونيك ↯](https://t.me/Best_roma5)")
 elseif Text== "هايدي" or Text== "قلب العالمي" then return  sendMsg(msg.chat_id_,msg.id_,"[حبيبت العالمي ووبس ♲](https://t.me/H_yah1)")
-elseif Text== "الهكر" or Text== "سورس الهكر" then return  sendMsg(msg.chat_id_,msg.id_,"[افجر سورس مصري ♲](https://t.me/SouRce_hacker)")
+elseif Text== "سورس سونيك" or Text== "سورس سونيك" then return  sendMsg(msg.chat_id_,msg.id_,"[افجر سورس مصري ♲](https://t.me/SouRce_Sonic)")
 elseif Text== "رفع غبي"  then return sendMsg(msg.chat_id_,msg.id_,"♲ أهلاً عزيزي\n♲ تم رفع الغبي بنجاح↯\n♲ تمت إضافته إلى قائمه الأغبياء\n☆")
 elseif Text== "تنزيل غبي"  then return sendMsg(msg.chat_id_,msg.id_,"♲ أهلاً عزيزي\n♲ تم تنزيل الغبي بنجاح↯\n♲ تمت الزاله من قائمه الأغبياء\n☆")
 elseif Text== "رفع كلب"  then return sendMsg(msg.chat_id_,msg.id_,"♲ أهلاً عزيزي\n♲ تم رفع الكلب بنجاح↯\n♲ تمت إضافته إلى قائمه الكلاب\n☆")
