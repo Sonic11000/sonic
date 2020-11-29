@@ -1209,7 +1209,7 @@ if redis:get(hack.."getidstatus"..msg.chat_id_) == "Photo" then
 		}
 		ssssys = ali[math.random(#ali)]
 		if not redis:get("KLISH:ID") then
-		sendPhoto(msg.chat_id_,msg.id_,data.photos_[0].sizes_[1].photo_.persistent_id_,'-›  𝙽𝙰𝙼𝙴  🇾🇪 ꙰ '..Namei..'    \n-›  𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 🇾🇪 ꙰ '..UserNameID..' .\n-›  𝙶𝙼𝙰𝚂  🇾🇪 ꙰ '..msgs..' .\n-› 𝚂𝚃𝙰𝚂𝚃  🇾🇪 ꙰'..msg.TheRank..' .\n-›  𝙸𝙳  🇾🇪 ꙰ '..msg.sender_user_id_..' .\n-› 🇾🇪 ꙰ 𝚌𝚑 @SouRce_hacker .\n▁',dl_cb,nil)
+		sendPhoto(msg.chat_id_,msg.id_,data.photos_[0].sizes_[1].photo_.persistent_id_,'𖤍-𝒏𝒂𝒎𝒆 ↝ '..Namei..'    \n𖤍-𝒖𝒔𝒆𝒓 ↝ '..UserNameID..' .\n𖤍-𝒎𝒔𝒈𝒆 ↝ '..msgs..' .\n𖤍-𝒔𝒕𝒂 ↝'..msg.TheRank..' .\n𖤍-𝘐𝘋  ↝ '..msg.sender_user_id_..' .\n𖤍-𝒄𝒉 ↝ @SouRce_Sonic .\n▁',dl_cb,nil)
 		else
 		Text = redis:get("KLISH:ID")
 		Text = Text:gsub('IDGET',msg.sender_user_id_)
@@ -1224,7 +1224,7 @@ if redis:get(hack.."getidstatus"..msg.chat_id_) == "Photo" then
 		end
 	else
 		if not redis:get("KLISH:ID") then
-		sendMsg(msg.chat_id_,msg.id_,'♲لا يمكنني عرض صورتك لانك قمت بحظر البوت او انك لاتملك صوره في بروفيلك ...!\n-›  𝙽𝙰𝙼𝙴  🇾🇪 ꙰  '..Namei..'  \n-›  𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 🇾🇪 ꙰ '..UserNameID..' .\n-›  𝙶𝙼𝙰𝚂  🇾🇪 ꙰  '..msgs..' .\n-› 𝚂𝚃𝙰𝚂𝚃  🇾🇪 ꙰ '..msg.TheRank..' .\n-›  𝙸𝙳  🇾🇪 ꙰ '..msg.sender_user_id_..' .\n-›  🇾🇪 ꙰ 𝚌𝚑 @SouRce_hacker .\n▁')
+		sendMsg(msg.chat_id_,msg.id_,'♲لا يمكنني عرض صورتك لانك قمت بحظر البوت او انك لاتملك صوره في بروفيلك ...!\n𖤍-𝒏𝒂𝒎𝒆 ↝  '..Namei..'  \n𖤍-𝒖𝒔𝒆𝒓 ↝ '..UserNameID..' .\n𖤍-𝒎𝒔𝒈𝒆 ↝  '..msgs..' .\n𖤍-𝒔𝒕𝒂 ↝ '..msg.TheRank..' .\n𖤍-𝘐𝘋  ↝ '..msg.sender_user_id_..' .\n𖤍-𝒄𝒉 ↝ @SouRce_Sonic .\n▁')
 		else
 		Text = redis:get("KLISH:ID")
 		Text = Text:gsub('IDGET',msg.sender_user_id_)
@@ -1251,7 +1251,7 @@ else
 		Text = Text:gsub('User_Points',nko)
 		sendMsg(msg.chat_id_,msg.id_,Flter_Markdown(Text))
 		else
-		sendMsg(msg.chat_id_,msg.id_,'♲الايدي بالصوره معطل \n♲-›  𝙽𝙰𝙼𝙴  🇾🇪 ꙰  '..Namei..'    \n-›  𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 🇾🇪 ꙰'..UserNameID..' .\n-›  𝙶𝙼𝙰𝚂  🇾🇪 ꙰ '..msgs..' .\n-› 𝚂𝚃𝙰𝚂𝚃  🇾🇪 ꙰ '..msg.TheRank..' .\n-›  𝙸𝙳  🇾🇪 ꙰ '..msg.sender_user_id_..' .\n-›  🇾🇪 ꙰ 𝚌𝚑 @SouRce_hacker .')
+		sendMsg(msg.chat_id_,msg.id_,'♲الايدي بالصوره معطل \n𖤍-𝒏𝒂𝒎𝒆 ↝  '..Namei..'    \n𖤍-𝒖𝒔𝒆𝒓 ↝'..UserNameID..' .\n𖤍-𝒎𝒔𝒈𝒆 ↝ '..msgs..' .\n𖤍-𝒔𝒕𝒂 ↝ '..msg.TheRank..' .\n𖤍-𝘐𝘋  ↝ '..msg.sender_user_id_..' .\n𖤍-𝒄𝒉 ↝ @SouRce_Sonic .')
 		end
 end
 
@@ -1844,7 +1844,7 @@ end
 
 if (MsgText[1] ==  'تحديث السورس'  or MsgText[1] ==  'تحديث السورس 🔂' ) then
 if not msg.SudoBase then return "*│*هذا الامر يخص {المطور الاساسي} فقط  \n" end
-local GetVerison = https.request( 'https://raw.githubusercontent.com/Alamy300/hackfile/main/GetVersion.txt' ) or 0
+local GetVerison = https.request( 'https://raw.githubusercontent.com/Sonic1000/sonicfile/main/GetVersion.txt' ) or 0
 print(GetVerison.." > "..version)
 if GetVerison > version then
 UpdateSourceStart = true
@@ -1928,8 +1928,8 @@ return false
 end
 
 if MsgText[1]== "مطور السورس" and msg.type == "pv" then
-local inline = {{{text="مطور السورس اضـغـط هـنـآ ",url="https://t.me/Omnia_mysoulmate"}}}
-send_key(msg.sender_user_id_,'   [علام.مطور](https://t.me/Omnia_mysoulmate)' ,nil,inline,msg.id_)
+local inline = {{{text="مطور السورس اضـغـط هـنـآ ",url="https://t.me/M_A_L_L_A_M"}}}
+send_key(msg.sender_user_id_,'   [علام.مطور](https://t.me/M_A_L_L_A_M)' ,nil,inline,msg.id_)
 return false
 end
 
