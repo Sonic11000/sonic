@@ -2411,11 +2411,15 @@ end
 
 if MsgText[1] == "السورس" or MsgText[1]=="سورس" then
 return [[
-if MsgText[1]== "مبرامج السورس" and msg.type == "pv" then
-local inline = {{{text="-العالمي ",url="https://t.me/Alamy3"}}}
-send_key(msg.sender_user_id_,'   [العالمي](https://t.me/Alamy3' ,nil,inline,msg.id_)
-return false
-end
+❃ 𝗦𝗼𝘂𝗿𝗰𝗲 𝘀𝗼𝗻𝗹𝗰 ❃
+
+𖤍 𝒅𝒆𝒗 [𝒂𝒍𝒂𝒎𝒚 𖤍](http://t.me/Alamy3)
+
+𖤍 𝒅𝒆𝒗 [𝒎𝒐𝒉𝒂𝒎𝒆𝒅 𝒂𝒍𝒍𝒂𝒎 𖤍](http://t.me/M_A_L_L_A_M)
+
+𖤍 𝒄𝒉 [𝒔𝒐𝒖𝒓𝒄𝒆 𝒔𝒐𝒏𝒊𝒄 𖤍](http://t.me/SouRce_Sonic)
+
+𖤍 𝒄𝒉 [𝒕𝒘𝒂𝒔𝒐𝒍 𖤍](http://t.me/FlassTas4_bot)
 ]]
 end
 
