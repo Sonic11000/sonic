@@ -13,8 +13,8 @@
 ██  ██.         ██.                     ██         │FlassTas ﹏ @FlassTas
 │تم تطوير وبرمجة السورس من قبل فلسطس .
 ─────▀██▀─────
-┊SONIC ‿ @FlassTas
-┊@UU_IV ‿ @FlassTas
+┊FlassTas ‿ @FlassTas
+┊@FlassTas ‿ @FlassTas
 #---------------------------------------------------------------------
 cd $(cd $(dirname $0); pwd)
  
