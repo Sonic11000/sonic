@@ -4,17 +4,17 @@
 ─▄█▀█▄──▄███▄─
 ▐█░██████████▌
 ─██▒█████████─
-──▀████████▀──┊@FlassTas
+──▀████████▀──┊@UU_Fs
 
  ██  ██.                     ██
 ██.       ██.         ██.      ██
 ██.         ██.     ██.██ ██ ██
 ██.       ██.     ██.                ██
-██  ██.         ██.                     ██         │FlassTas ﹏ @FlassTas
+██  ██.         ██.                     ██         │FlassTas ﹏ @UU_Fs
 │تم تطوير وبرمجة السورس من قبل فلسطس .
 ─────▀██▀─────
-┊FlassTas ‿ @FlassTas
-┊@FlassTas ‿ @FlassTas
+┊FlassTas ‿ @UU_Fs
+┊@FlassTas ‿ @UU_Fs
 #---------------------------------------------------------------------
 cd $(cd $(dirname $0); pwd)
  
@@ -32,10 +32,10 @@ if [ "$Version" == "18" ];then
 echo -e "${GREEN}
 
                     
-       ▇ @FlassTas   ▇                     ▄▇▄▄▄▄▄▇▄                            
-    ▄▇                                           ¦ Dev : @FlassTas
- ▄▇ ¦ Dev : @FlassTas                   
-                                                               ¦ Source FlassTas BY @FlassTas
+       ▇ @UU_Fs  ▇                     ▄▇▄▄▄▄▄▇▄                            
+    ▄▇                                           ¦ Dev : @UU_Fs
+ ▄▇ ¦ Dev : @UU_Fs                 
+                                                               ¦ Source FlassTas BY @UU_Fs
 ----------------------------------------------------------------------${CNIL}"
 echo -e "${RED}| للاسف لايمكنك تنصيب السورس ع نظام اوبنتو {${Version}} يجب ان يكون على اصدار  اقل مثلا  ${SMAY}14 او 16
 ${CNIL}";
